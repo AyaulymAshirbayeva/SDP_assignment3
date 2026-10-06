@@ -13,7 +13,8 @@ public abstract class Website {
         this.theme = theme;
     }
 
-    public void showThemeSettings() {
+    protected void showThemeSettings() {
+
         System.out.println("Background: "
                 + theme.getBackgroundColor());
 
