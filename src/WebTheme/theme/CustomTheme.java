@@ -1,6 +1,5 @@
 package WebTheme.theme;
 public class CustomTheme implements Theme {
-
     private String backgroundColor;
     private String textColor;
     private String buttonColor;
@@ -17,17 +16,14 @@ public class CustomTheme implements Theme {
     public String getBackgroundColor() {
         return backgroundColor;
     }
-
     @Override
     public String getTextColor() {
         return textColor;
     }
-
     @Override
     public String getButtonColor() {
         return buttonColor;
     }
-
     @Override
     public int getFontSize() {
         return fontSize;
